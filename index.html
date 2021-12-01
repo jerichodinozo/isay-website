@@ -2,7 +2,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        
         <title>Isaytakoyummy</title>
     </head>
     <body>
@@ -11,10 +10,10 @@
                 <div class="container">
                     <h1>Isaytakoyummy</h1>
                     <div class="menu">
-                        <a href="#" class="is-active">Home</a>
-                        <a href="#">Menu</a>
-                        <a href="#">Order</a>
-                        <a href="#">Contact us</a>
+                        <a href="#home">Home</a>
+                        <a href="#food-menu">Menu</a>
+                        <a href="#order">Order</a>
+                        <a href="#contact">Contact us</a>
                     </div>
         
                     <button class="hamburger">
@@ -27,14 +26,110 @@
                 </div>
             </nav>
             
+            <nav class="mobile-nav">
+                <a href="#home">Home</a>
+                <a href="#food-menu">Menu</a>
+                <a href="#order">Order</a>
+                <a href="#contact">Contact us</a>
+            </nav>
         </header>
+        
+        <div id="home">
+            <h1>Business hours</h1>
+            <p>Sunday: 12:00pm - 7:30pm</p>
+            <p>Monday: closed</p>
+            <p>Tuesday: closed</p>
+            <p>Wednesday: 12:00pm - 7:30pm</p>
+            <p>Thursday: 12:00pm - 7:30pm</p>
+            <p>Friday: 12:00pm - 7:30pm</p>
+            <p>Saturday: 12:00pm - 7:30pm</p>
+        </div>
 
-        <nav class="mobile-nav">
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">Order</a>
-            <a href="#">Contact us</a>
-        </nav>
+        <div id="menu">
+            <h1>Menu</h1>
+            <div class="menu-container">
+                <div class="food-menu">
+                    <h2 class="menu-group-heading">
+                        Entreé
+                    </h2>
+                    <div class="menu-group">
+                        <div class="menu-item">
+                            <img src="https://lh5.googleusercontent.com/p/AF1QipNs5tmicUIY9KxRZbQBUAcqgax9XMxbFdJkqTKi=w406-h228-k-no" alt="" class="menu-item-image">
+                            <div class="menu-item-text">
+                                <h3 class="menu-item-heading">
+                                    <span class="menu-item-name">Takoyaki platter</span>
+                                    <span class="menu-item-price">$55</span>
+                                </h3>
+                                <p class="menu-item-description">The platter includes 20 pieces of takoyaki, furikake fries, chicken karaage, and squid karaage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="menu-group-heading">
+                        Mains
+                    </h2>
+                    <div class="menu-group">
+                        <div class="menu-item">
+                            <img src="https://lh5.googleusercontent.com/p/AF1QipONtUCZJyQTF7sLvdvbSN3jmcmeel3uoaO3hFLl=w406-h228-k-no" class="menu-item-image">
+                            <div class="menu-item-text">
+                                <h3 class="menu-item-heading">
+                                    <span class="menu-item-name">Takoyaki</span>
+                                    <span class="menu-item-price">$20.40</span>
+                                </h3>
+                                <p class="menu-item-description">Japanese snack made of tempura batter with diced octupus topped with isaytakoyummy's sauce house blend takoyaki sauce, Japanese mayo, and with optional house blend spicy mayo. Garnished with crushed nori and tuna flakes.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://d1ralsognjng37.cloudfront.net/a66bd3ec-dad8-49d3-ac9a-b456a109dbcf.jpeg" alt="" class="menu-item-image">
+                            <div class="menu-item-text">
+                                <h3 class="menu-item-heading">
+                                    <span class="menu-item-name">Squid Karaage</span>
+                                    <span class="menu-item-price">$16.10</span>
+                                </h3>
+                                <p class="menu-item-description">Deep-fried squid pieces coated with seasoned Japanese flour. Served with spicy mayo and sweet vinegar.</p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="https://d1ralsognjng37.cloudfront.net/1c761f76-57a1-475b-a103-cf99f6fd0bf9.jpeg" alt="" class="menu-item-image">
+                            <div class="menu-item-text">
+                                <h3 class="menu-item-heading">
+                                    <span class="menu-item-name">Spicy Squid Karaage</span>
+                                    <span class="menu-item-price">$16.10</span>
+                                </h3>
+                                <p class="menu-item-description">Deep fried squid pieces coated with spicy Japanese flour. Served with hot mayo and sweet vinegar.</p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="https://d1ralsognjng37.cloudfront.net/e00b0c54-0b4f-4dfd-9fe4-17ac3260e819.jpeg" alt="" class="menu-item-image">
+                            <div class="menu-item-text">
+                                <h3 class="menu-item-heading">
+                                    <span class="menu-item-name">Okonomiyaki</span>
+                                    <span class="menu-item-price">$15.24</span>
+                                </h3>
+                                <p class="menu-item-description">A Japanese savoury pancake made with cabbage, squid slices, and tonkatsu. Drizzled with house blend takyoyaki sauce and Japanese mayo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="menu-group-heading">
+                        Drinks
+                    </h2>
+                    <div class="menu-group">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="order">
+            <h1>Order</h1>
+            <p>Order now through Uber Eats, Skipthedishes, and DoorDash!</p>
+        </div>
+
+        <div id="contact">
+            <h1>Contact us</h1>
+        </div>
         <script src="prod-script.js"></script>
     </body>
 </html>
