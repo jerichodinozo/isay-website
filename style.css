@@ -229,3 +229,19 @@ h1 {
 .menu-item-description {
     line-height: 1.6em;
 }
+
+.icon {
+    width: 100%;
+    margin: 2em 2em 2em 2em;
+    max-width: 150px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--dark);
+}
